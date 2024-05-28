@@ -98,6 +98,18 @@
     left: 33.6%;
   }
 
+  .play-button{
+    position: absolute;
+    z-index: 5;
+    bottom: 33%;
+    left: 45%;
+    transition: 0.5s;
+  }
+
+  .play-button:hover{
+    transform: scale(1.2);
+  }
+
   .content{
     display: flex;
     flex-direction: column ;
@@ -119,10 +131,4 @@
     font: 0.7rem 'Quicksand-Medium';
     color: #8D96BD; 
     line-height: 2;   
-  }
-
-  .play-button{
-        bottom: 30%;
-        left:40%;
-        size: 50%;
   }

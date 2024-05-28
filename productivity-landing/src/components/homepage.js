@@ -23,6 +23,7 @@ function HomePage(){
                 <img src={vline} className="y-line y-line-3" alt="y-line"/>
                 <img src={vline} className="y-line y-line-4" alt="y-line"/>
                 <img src={one_of_stats} className="state" alt="state"/>
+                <img src={play_button} className="play-button" alt="play-button"/>
             </div>
             <div className="content">
                 <p className="upper-title">PLAN YOUR LIFE</p>
@@ -30,7 +31,6 @@ function HomePage(){
                 <p className="content-text">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. 
                                         Usu <br/> atqui laudem an, insolens gubergren similique est cu. 
                                         Et vel modus <br/> congue vituperata.</p>
-                <img src={play_button} className="play-button" alt="play-button"/>
             </div>
             
 
