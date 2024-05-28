@@ -10,7 +10,7 @@
     justify-content: space-between;
 }
 
-.navbar:hover{
+.links:hover{
     cursor: pointer;
 }
 
@@ -30,6 +30,7 @@
 
 .inner-links p:hover{
     color: #5E81FE;
+    cursor: pointer;
 }
 
 .links{

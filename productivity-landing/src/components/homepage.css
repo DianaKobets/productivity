@@ -1,0 +1,128 @@
+.homepage {
+    position: relative;
+    height: 570px;
+    overflow: hidden;
+    background: linear-gradient(180deg, #F4F7FF 0%, #F1F5FF 100%);
+  }
+  
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .clouds {
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 15%;
+    z-index: 3;
+  }
+  
+  .line {
+    position: absolute;
+    bottom: 8%;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+  }
+  
+.gradient{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+  .circle {
+    position: absolute;
+    z-index: 4;
+  }
+  
+  .circle-1 {
+    left: 5%;
+    bottom: 4.7%;
+  }
+  
+  .circle-2 {
+    left: 37%;
+    bottom: 11%;
+  }
+  
+  .circle-3 {
+    right: 34%;
+    bottom: 37.5%;
+  }
+  
+  .circle-4 {
+    right: 6%;
+    top: 33%;
+  }
+  
+  .y-line{
+    position: absolute;
+    z-index: 3;
+  }
+
+  .y-line-1{
+    left: 6.4%;
+    bottom: 0.7%;
+    height: 30%;
+  }
+
+  .y-line-2{
+    left: 38.4%;
+    bottom: 3.7%;
+    height: 30%;
+  }
+
+  .y-line-3{
+    right: 35.4%;
+    bottom: 27.7%;
+    height: 30%;
+  }
+
+  .y-line-4{
+    right: 7.5%;
+    top: 20%;
+    height: 30%;
+  }
+
+  .state{
+    position: absolute;
+    z-index: 5;
+    bottom: 11%;
+    left: 33.6%;
+  }
+
+  .content{
+    display: flex;
+    flex-direction: column ;
+  }
+
+  .upper-title{
+    margin-top: 5%;
+    font: bold 0.7rem 'Quicksand-Medium';
+    color: #3D4F9F;    
+  }
+
+  .main-title{
+    margin: 0.5%;
+    font: 2.5rem 'Quicksand-Light';
+    color: #3D4F9F;    
+  }
+
+  .content-text{
+    font: 0.7rem 'Quicksand-Medium';
+    color: #8D96BD; 
+    line-height: 2;   
+  }
+
+  .play-button{
+        bottom: 30%;
+        left:40%;
+        size: 50%;
+  }
