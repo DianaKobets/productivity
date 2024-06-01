@@ -1,0 +1,230 @@
+.homepage {
+    position: relative;
+    height: 570px;
+    overflow: hidden;
+    background: linear-gradient(180deg, #F4F7FF 0%, #F1F5FF 100%);
+  }
+  
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .clouds {
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 15%;
+    z-index: 3;
+  }
+  
+  .line {
+    position: absolute;
+    bottom: 8%;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+  }
+  
+.gradient{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+  .circle {
+    position: absolute;
+    z-index: 4;
+  }
+  
+  .circle-1 {
+    left: 5%;
+    bottom: 4.7%;
+  }
+  
+  .circle-2 {
+    left: 37%;
+    bottom: 11%;
+  }
+  
+  .circle-3 {
+    right: 34%;
+    bottom: 37.5%;
+  }
+  
+  .circle-4 {
+    right: 6%;
+    top: 33%;
+  }
+  
+  .y-line{
+    position: absolute;
+    z-index: 3;
+  }
+
+  .y-line-1{
+    left: 6.4%;
+    bottom: 0.7%;
+    height: 30%;
+  }
+
+  .y-line-2{
+    left: 38.4%;
+    bottom: 3.7%;
+    height: 30%;
+  }
+
+  .y-line-3{
+    right: 35.4%;
+    bottom: 27.7%;
+    height: 30%;
+  }
+
+  .y-line-4{
+    right: 7.5%;
+    top: 20%;
+    height: 30%;
+  }
+
+  .state{
+    position: absolute;
+    z-index: 5;
+    bottom: 11%;
+    left: 33.6%;
+  }
+
+  .play-button{
+    position: absolute;
+    z-index: 5;
+    bottom: 33%;
+    left: 45%;
+    transition: 0.5s;
+  }
+
+  .play-button:hover{
+    transform: scale(1.2);
+  }
+
+  .content{
+    display: flex;
+    flex-direction: column ;
+  }
+
+  .upper-title{
+    margin-top: 5%;
+    font: bold 0.7rem 'Quicksand-Medium';
+    color: #3D4F9F;    
+  }
+
+  .main-title{
+    margin: 0.5%;
+    font: 2.5rem 'Quicksand-Light';
+    color: #3D4F9F;    
+  }
+
+  .content-text{
+    font: 0.7rem 'Quicksand-Medium';
+    color: #8D96BD; 
+    line-height: 2;   
+  }
+  @media screen and (max-width: 1440px) {
+    .line {
+      margin-bottom: -0.5%;
+    }
+  
+    .circle-1 {
+      margin-bottom: -0.4%;
+    }
+    
+    .circle-2 {
+      margin-bottom: -0.6%;
+    }
+    
+    .circle-3 {
+      margin-bottom: -1.5%;
+    }
+    
+    .circle-4 {
+      margin-top: 2.2%;
+    }
+  
+    .y-line-1{
+      margin-left: 0.15%;
+    }
+  
+    .y-line-2{
+      margin-left: 0.15%;
+    }
+  
+    .y-line-3{
+      margin-right: 0.15%;
+    }
+  
+    .state{
+      margin-left: -0.3%;
+    }
+  
+  }
+  
+  @media screen and (max-width: 1024px) {
+  
+    .clouds{
+      margin-top: 17%;
+    }
+  
+    .gradient{
+      margin-bottom: 1.2%;
+    }
+  
+    .circle-1{
+      margin-bottom: -0.5%;
+    }
+    .circle-2{
+      margin-bottom: -1.6%;
+    }
+    .circle-3{
+      margin-bottom: -6.8%;
+    }
+    .circle-4{
+      margin-top: 10.9%;
+      margin-right: -1%;
+    }
+  
+    .y-line-1{
+      margin-left: 0.7%;
+  
+    }
+    .y-line-2{
+      margin-left: 0.7%;
+    }
+    .y-line-3{
+      margin-right: 0.75%;
+      margin-bottom: -10%;
+  
+    }
+    .y-line-4{
+      margin-right: -0.35%;
+      margin-top: 8%;
+    }
+  
+    .state{
+      margin-left: -1.8%;
+    }
+  
+    .content{
+      margin-left: 4%;
+      margin-top: 3%;
+    }
+  
+  }
+  
+  @media screen and (max-width: 768px) {
+    .clouds{
+      margin-top: 37%;
+    }
+  }
